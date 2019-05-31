@@ -29,9 +29,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What does it mean to _think_ in react?
 
 - [ ] Describe state.
-
+data of an object
 - [ ] Describe props.
-
+properties of an object
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
