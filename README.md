@@ -25,13 +25,14 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+a library to help make fast and powerful applications that scale, grow, and can be compartmentalized.
 
 - [ ] What does it mean to _think_ in react?
-
+break down project into components, create a top down data flow, reuse code as much as possible
 - [ ] Describe state.
-data of an object
+an object the data of a component
 - [ ] Describe props.
-properties of an object
+an object the properties of a component
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
