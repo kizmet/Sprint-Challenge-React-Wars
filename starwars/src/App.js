@@ -19,14 +19,14 @@ const App = () => {
   // side effect in a component, you want to think about which state and/or props it should
   // sync up with, if any.
   const [characters, setCharacters] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [nextUrl, setNextUrl] = useState("");
   const [url, setUlr] = useState("https://swapi.co/api/people");
   const [prevUrl, setPrevUrl] = useState("");
 
   useEffect(() => {
     const getCharacters = async url => {
-      //setIsLoading(true);
+      setIsLoading(true);
       const request = await fetch(url)
         .then(res => {
           return res.json();
